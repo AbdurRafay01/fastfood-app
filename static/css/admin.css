@@ -1,0 +1,91 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.display-5{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 200;
+}
+
+
+/* email pass */
+.userpass{
+    padding: 50px;
+}
+
+.login_btn{
+    background-color: rgb(235, 116, 5);
+    border: none;
+    padding: 10px 50px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.login_btn:hover{
+    background-color: rgb(214, 10, 10);
+    color: antiquewhite;
+}
+/* email passend */
+
+/* home */
+
+
+.main_dashboard{
+    padding: 60px 12px;
+    border-radius: 30px;
+    background-color: rgb(250, 162, 90);
+    font-size: 40px;
+    margin: 30px 5px;
+    color: rgb(80, 16, 0);
+    font-weight: bold;
+}
+
+.main_dashboard h1{
+    font-weight: 600;
+}
+
+.main_dashboard table{
+    background-color: beige;
+    border: 2px solid;
+}
+
+/* homeend */
+
+
+/* dropwdown at navbar */
+.dropdown button{
+    background-color: rgb(235, 116, 5);
+    border: none;
+}
+
+
+.dropdown button:hover{
+    background-color: rgb(214, 10, 10);
+}
+.dropdown button:default{
+    background-color: rgb(214, 10, 10);
+}
+
+/* dropwdownend */
+
+/* admin fast food add */
+.add_container{
+    background-color: rgb(255, 244, 236);
+    padding: 50px 50px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+
+.add_container input{
+    height: 60px;
+}
+
+.add_container h1{
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* admin fast food add */

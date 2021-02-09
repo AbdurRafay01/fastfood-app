@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    background-color: #F7FFF7;
+
+}
+
+
+
+.carousel-item img {
+    /* width: 400px; */
+    height: 400px;
+}
+
+.navbar {
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.navbar-brand {
+    font-family: cursive;
+}
+
+/* middle text */
+.row {
+    padding-top: 50px;
+    /* text-align: center; */
+    color: #343434;
+    padding-bottom: 30px;
+
+}
+
+.display-3{
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+.wall_text {
+    font-size: 25px;
+    background-color: #e7e8e9;
+    border-radius: 50px;
+    text-align: justify;
+
+}
+
+.wall_text img {}
+
+
+
+.inner_text {
+    padding: 30px;
+}
+
+/* aboutus */
+
+/* About uws */
+
+
+.aboutus {
+    text-align: center;
+    padding-top: 100px;
+
+    background-color: rgb(231, 148, 24);
+    margin: 100px 250px;
+    border-radius: 100px;
+    padding: 100px 50px;
+
+
+}
+
+.aboutus h1 {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.aboutus p,
+.aboutus h2,
+.aboutus h1 {
+    color: #160803;
+}
+
+.aboutus h2 {
+    font-size: 25px;
+    font-family: 'Lexend Tera', sans-serif;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.aboutus p {
+    text-align: justify;
+    font-size: 20px;
+    /* padding: 100px 50px; */
+}
+
+@media screen and (max-width: 800px) {
+    .aboutus img {
+        /* background-color: red; */
+        width: 100px;
+        /* height: 145px; */
+    }
+}
+
+/* aboutus end */
+
+
+/* Contact us */
+.contactusbg {
+    text-align: center;
+    background-color: rgb(233, 201, 105);
+    margin: 100px 250px;
+    border-radius: 100px;
+}
+
+    .contactus {
+        /* background-color: khaki; */
+        padding: 100px 50px;
+    }
+
+
+    .contactus h1 {
+        color: #aa0505;
+        font-size: 50px;
+    }
+
+    .contactus h3 {
+        color: rgb(128, 19, 0);
+
+    }
+
+    .contactus .gray-line-at-useful-links {
+        width: 100%;
+    }
+
+    #contactusintro {
+        padding-top: 10px
+    }
+
+    .contactus ul {
+        padding-top: 20px;
+        list-style-type: none;
+        /* color: #41173f; */
+        font-size: 20px;
+
+    }
+
+    .contactus i {
+        padding-right: 20px;
+        color: rgb(128, 19, 0);
+
+    }
+
+    .contactus p {
+        /* font-size:25px; */
+        text-align: center;
+    }
+
+    .head12 {
+        font-size: 25px;
+
+    }
+
+    .head13 {
+        font-weight: bold;
+        color:  rgb(128, 19, 0);
+    }
+
+    .head14 {
+        color: black;
+        font-size: 18px;
+    }
+
+/* contact usend */
+
+
+
+
+/* fastfood */
+h1{
+    text-align: center;
+    color: #aa0505;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    /* background-color: rgb(255, 192, 75); */
+    margin: 0;
+}
+
+    .display-1{
+        background-color: rgb(255, 192, 75);
+    }
+
+    .fastfood_main > div{
+        /* padding: 10px; */
+        /* background-color: #343434; */
+    }
+
+    .fastfood_row > div{
+        /* padding: 10px; */
+    }
+
+.card-body input{
+    padding: 10px;
+}
+
+.tabsmain{
+    background-color: rgb(255, 192, 75);
+}
+
+.tabsmain li{
+    background-color: rgb(255, 192, 75);
+    color: #f8f8f8;
+    border: none;
+    padding: 5px 3px;
+    transition: 1s ease;
+}
+
+
+    .tabsmain li:hover{
+        background-color: #ff8f66;
+    }
+
+    
+.tabsmain a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #8f2100;
+    padding: 10px 90px;
+}
+
+#quantity_user{
+    background-color: rgb(7, 7, 6);
+    border-radius: 4px;
+    border: none;
+    color: antiquewhite;
+    /* padding: 50px; */
+}
+
+/* fastfoodend */
+
+
+
+
+
+
+
+/* footer */
+        .itemgf-1{
+            grid-column: 3;
+        }
+        .itemgf-2{
+            grid-column: 1;
+            color: white;
+            
+        }
+            .emailform input{
+                width: 400px;
+                height: 50px;
+            }
+            .inline-button{
+                display: inline-flex;
+            }
+            .emailform p , #contactus{  
+                font-size: 30px;
+                font-weight: 600;
+                color: #8f2100;
+            }
+            .form-group .btn-light:hover{
+                background-color: #d1c0d1;
+                /* font-size: 40px; */
+            }
+        .itemgf-3{
+            /* background-color: wheat; */
+            /* padding-top: 50px; */
+            grid-column: 1;
+            color: white;
+        }
+            .itemgf-3 li{
+                display: inline;
+                margin-right: 10px;
+            }
+            .itemgf-3 p{
+                font-size: 35px;
+                font-weight: 600;
+            }
+            .itemgf-3 img{
+                width: 30px;
+            }
+
+        .itemgf-3 , .itemgf-2 p{
+            font-size: 18px;
+            color: #8f2100;
+        }
+    .contacts{
+        color: rgb(201, 0, 0);
+        font-size: 24px;
+    }
+    .foot-list{
+        list-style-type: none;
+    }
+.to-top{
+    position: fixed;
+    right:  40px;
+    bottom: 30px;
+    width: 40px;
+    transition-duration: 1s;
+}
+    .to-top:hover{
+        width: 50px;
+        transition: 1s ease;
+        color: #aa0505;
+    }
+
+.footer11{
+    background-color: rgb(253, 216, 92);
+}
+        .footer11-links p{
+            padding-left: 30px;
+        }
+        .footer11-links a{
+            padding-right: 40px;
+            color: #4b0900;
+            font-size: 20px;
+            
+        }
